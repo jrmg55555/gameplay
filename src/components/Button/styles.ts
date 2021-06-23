@@ -12,11 +12,11 @@ export const styles = StyleSheet.create({
   },
 
   title: {
-    flex:1,
-    color:theme.colors.heading,
+    flex: 1,
+    color: theme.colors.heading,
+    fontFamily: theme.fonts.text500,
     fontSize: 15,
     textAlign: 'center',
-    fontFamily: theme.fonts.text500
   },
 
   iconWrapper: {
@@ -27,7 +27,7 @@ export const styles = StyleSheet.create({
     borderRightWidth: 1,
     borderColor: theme.colors.line
   },
-
+  
   icon: {
     width: 24,
     height: 18
